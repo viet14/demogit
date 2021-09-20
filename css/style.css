@@ -1,0 +1,167 @@
+
+.header{
+    position: relative;
+}
+.nav__bar{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav__bar__fistNav{
+    justify-content: space-between;
+    height: 92px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav__language{
+    line-height: 92px;
+}
+
+.lang__icon{
+    background: url(../asset/img/lang_en.png) no-repeat left center;
+    min-height: 32px;
+    padding-left: 35px;
+    line-height: 92px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.lang__icon:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.cart{
+    margin-right: 12px;
+}
+
+.cart a i{
+    position: relative;
+}
+
+.cart a i #coutcart{
+    position: absolute;
+    top: -16px;
+    background-color: #eb983e;
+    min-height: 20px;
+    min-width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    left: 5px;
+    font-size: 12px;
+}
+
+.icon a ,
+.icon a i{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 6px;
+
+}
+
+.nav__bar__lastNav{
+    
+}
+
+.nav__bar__list{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 55px;
+    border-radius: 50px;
+    background: url(../asset/img/bg.png);
+}
+
+.nav__listItems{
+    margin: 0;
+}
+
+.nav__item{
+    line-height: 55px   ;
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 0 15px;
+    font-weight: 600;
+    user-select: none;
+    cursor: pointer;
+}
+
+.nav__item a{
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-book{
+    width: 130px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #eb983e;
+    text-decoration: none;
+    height: 45px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 45px ;
+    margin-right: 5px;
+}
+
+.btn-book:hover{
+    color: #fff;
+}
+
+.btn-book i{
+    padding-right: 8px;
+}
+
+.menu__slide{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: solid 3px #d7d7d7;
+    position: relative;
+    padding: 30px;
+    margin-top: -132px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.menu__slide::before{
+    position: absolute;
+    width: 200px;
+    height: 68px;
+    background: url(https://nethue.com.vn/images/label-box-menu.png);
+    content: "";
+    top: -61px;
+    z-index: 99;
+    left: 50%;
+    transform: translate(-50% , 0);
+}
+
+.menu__slide::after{
+    position: absolute;
+    content: "";
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    border: solid 1px #d7d7d7;
+    top: 5px;
+    left: 5px;
+    border-radius: 15px;
+}
+
+.present{
+    width: 100%;
+    text-align: center;
+}
+
+.list__Menu{
+    justify-content:space-around ;
+}
+
+.menu__item img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
